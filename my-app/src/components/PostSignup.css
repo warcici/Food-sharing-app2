@@ -1,0 +1,19 @@
+/* src/components/PostSignup.css */
+
+.post-signup-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .role-box {
+    border: 2px solid #ccc;
+    padding: 50px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .role-box:hover {
+    border-color: #333;
+  }
+  

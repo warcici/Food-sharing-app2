@@ -1,0 +1,79 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  transition: all 0.05s ease-in-out;
+}
+
+.auth-box {
+  display: flex;
+  width: 80%;
+  max-width: 1000px; /* Augmente la largeur maximale */
+  height: 70%;
+  max-height: 700px; /* Augmente la hauteur maximale */
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.auth-left,
+.auth-right {
+  flex: 1;
+  padding: 40px; /* Augmente le padding pour plus d'espace autour des champs */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.05s ease-in-out;
+}
+
+.auth-left {
+  background-color: #ffffff;
+}
+
+.auth-right {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+}
+
+.auth-container.sign-in-mode .auth-left {
+  order: 2;
+}
+
+.auth-container.sign-in-mode .auth-right {
+  order: 1;
+}
+
+input {
+  width: 80%;
+  padding: 15px; /* Augmente la taille du padding pour agrandir les champs */
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px; /* Augmente la taille de la police */
+}
+
+button {
+  width: 80%;
+  padding: 15px; /* Augmente la taille du padding pour agrandir le bouton */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px; /* Augmente la taille de la police */
+}
+
+.toggle-link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 16px; /* Augmente la taille de la police pour le lien */
+}
+
+.toggle-link:hover {
+  color: #0056b3;
+}

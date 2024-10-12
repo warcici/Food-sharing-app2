@@ -1,0 +1,40 @@
+.navbar {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em 1.5em; /* Augmenter le padding pour une navbar plus grande */
+}
+
+.navbar-logo {
+  font-size: 29px; /* Augmenter la taille de la police */
+  font-weight: bold;
+  color: #000;
+  margin-right: auto; /* Aligner le logo à gauche */
+  text-decoration: none; /* Supprimer la décoration du texte */
+}
+
+.navbar-links {
+  display: flex;
+  gap: 3em; /* Augmenter l'espace entre les liens */
+}
+
+.navbar-links a {
+  text-decoration: none;
+  font-size: 18px; /* Augmenter la taille de la police des liens */
+  color: #000;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #007bff; /* Couleur au survol */
+}
